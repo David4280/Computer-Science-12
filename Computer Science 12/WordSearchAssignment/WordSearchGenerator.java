@@ -64,7 +64,7 @@ public class WordSearchApp {
     }
 
     // Generates the puzzle board, given the grid dimensions
-    private static void puzzleGenerate(Scanner input) {
+    private static void generatePuzzle(Scanner input) {
         System.out.println("\nWord Search Generator");
         // Reads word list from input file, saving it as an array list containing strings
         List<String> wordList = readWords(input, "Enter the word list file (e.g., words.txt): ");
